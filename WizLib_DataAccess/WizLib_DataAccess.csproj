@@ -7,6 +7,16 @@
   <ItemGroup>
     <Compile Remove="Migrations\20200823053650_AddCategoryTableToDb.cs" />
     <Compile Remove="Migrations\20200823053650_AddCategoryTableToDb.Designer.cs" />
+    <Compile Remove="Migrations\20200824142651_AddRelationToCategoryAndBookTable.cs" />
+    <Compile Remove="Migrations\20200824142651_AddRelationToCategoryAndBookTable.Designer.cs" />
+    <Compile Remove="Migrations\20200825042138_AddManytoManyBookAndAuthorRelation.cs" />
+    <Compile Remove="Migrations\20200825042138_AddManytoManyBookAndAuthorRelation.Designer.cs" />
+    <Compile Remove="Migrations\20200828031034_AddFluentBookTableToDB.cs" />
+    <Compile Remove="Migrations\20200828031034_AddFluentBookTableToDB.Designer.cs" />
+    <Compile Remove="Migrations\20200828031307_AddFluentBookTableToDB.cs" />
+    <Compile Remove="Migrations\20200828031307_AddFluentBookTableToDB.Designer.cs" />
+    <Compile Remove="Migrations\20200828032005_AddFluentAuthorTableToDB.cs" />
+    <Compile Remove="Migrations\20200828032005_AddFluentAuthorTableToDB.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

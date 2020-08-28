@@ -7,7 +7,8 @@ namespace WizLib_Model.Models
 {
    public class Category
     {
-        public int Id { get; set; }
+        [Key]
+        public int Category_Id { get; set; }
 
         [StringLength(100)]
         public string Name { get; set; }
