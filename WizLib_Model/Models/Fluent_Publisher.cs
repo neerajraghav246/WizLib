@@ -9,14 +9,10 @@ namespace WizLib_Model.Models
     {
         public int Publisher_Id { get; set; }
 
-        //[Required]
-        //[MaxLength(100)]
         public string Name { get; set; }
 
-        //[Required]
-        //[MaxLength(250)]
         public string Location { get; set; }
 
-        //public List<Book> Books { get; set; }
+        public List<Fluent_Book> Fluent_Books { get; set; }
     }
 }

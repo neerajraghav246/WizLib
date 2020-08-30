@@ -10,26 +10,21 @@ namespace WizLib_Model.Models
     {
         public int Author_Id { get; set; }
 
-        //[MaxLength(50)]
-        //[Required]
         public string FirstName { get; set; }
 
-        //[MaxLength(50)]
-        //[Required]
         public string LastName { get; set; }
 
         public DateTime DateOfBirth { get; set; }
 
-        //[MaxLength(250)]
         public string Address { get; set; }
 
-        //[NotMapped]
         public string FullName { get
             {
                 return $"{FirstName} {LastName}";
             }
         }
 
-        //public ICollection<BookAuthor> BookAuthors { get; set; }
+        public ICollection<Fluent_BookAuthor> Fluent_BookAuthors { get; set; }
+
     }
 }

@@ -17,6 +17,10 @@
     <Compile Remove="Migrations\20200828031307_AddFluentBookTableToDB.Designer.cs" />
     <Compile Remove="Migrations\20200828032005_AddFluentAuthorTableToDB.cs" />
     <Compile Remove="Migrations\20200828032005_AddFluentAuthorTableToDB.Designer.cs" />
+    <Compile Remove="Migrations\20200829111603_AddManyToManyInFluentBookAndFluentAuthor.cs" />
+    <Compile Remove="Migrations\20200829111603_AddManyToManyInFluentBookAndFluentAuthor.Designer.cs" />
+    <Compile Remove="Migrations\20200829111714_AddManyToManyInFluentBookAndFluentAuthorModified.cs" />
+    <Compile Remove="Migrations\20200829111714_AddManyToManyInFluentBookAndFluentAuthorModified.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
