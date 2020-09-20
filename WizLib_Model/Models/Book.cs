@@ -24,7 +24,7 @@ namespace WizLib_Model.Models
 
 
         [ForeignKey("BookDetail")]
-        public int BookDetail_Id { get; set; }
+        public int? BookDetail_Id { get; set; }
 
         public BookDetail BookDetail { get; set; }
 
